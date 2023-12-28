@@ -30,27 +30,7 @@ namespace dream
                     b[i, j] = Convert.ToInt32(Console.ReadLine());
                 }
             }
-            Console.WriteLine("------- matrix a---------");
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write("{0}  ", a[i,j]);
-                    
-                }
-                Console.WriteLine("");
-            }
-            Console.WriteLine("------- matrix b---------");
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write("{0}  ", b[i, j]);
-
-                }
-                Console.WriteLine("");
-            }
-            Console.WriteLine("matrix a---------matrix b");
+            Console.WriteLine("matrix a-------matrix b");
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
